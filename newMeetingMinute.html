@@ -3,7 +3,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
 	<head>
 		<script type="text/javascript" src="javascript/cordova-2.9.0.js"></script>
-		<script type="text/javascript" src="javascript/addcontacts.js"></script>
+		<script type="text/javascript" src="javascript/minutemaker.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/minutemaker.css">
 		<link rel="stylesheet" type="text/css" href="css/newMeetingMinute.css">
 		<title>Minute Maker</title>
@@ -12,6 +12,19 @@
 		</div>
 	</head>
 	<body>
+		<div class="leftPane">
+			<form id="actionPoint">
+				<input type="text" id="pntAssignee" placeholder="Assignee"/>
+				<br/><br/>
+				<input type="date" id="pntDate" placeholder="Due Date"/>
+				<br/><br/>				
+				<textarea  rows="5" id="pntActionPoint" placeholder="Action Point"></textarea>
+				<br/><br/>
+			</form>
+			<div id="centre">
+				<button id="btnFocus" type="submit" form="addContact">Create Action Point</button>
+			</div>
+		</div>
 		<div class="main">
 			<form id="meetingMinute">
 				<input type="text" id="mtgName" placeholder="Meeting name"/>
@@ -38,9 +51,8 @@
 				<br/><br/>				
 				<textarea  rows="5" id="mtgAgenda" placeholder="Meeting Agenda"></textarea>
 				<br/><br/>
-				<textarea  rows="10" id="mtgMinutes" placeholder="Meeting minutes"/></textarea>
+				<textarea  rows="100" id="mtgMinutes" placeholder="Meeting minutes"/></textarea>
 			</form>	
-			<button id="btnFocus" type="submit" form="addContact">Save</button>
 		</div>
 	</body>
 </html>

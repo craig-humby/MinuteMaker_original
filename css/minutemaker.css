@@ -8,9 +8,19 @@ body {
 	background-color: #F6F6F6;
 }
 
+.leftPane {
+	position: absolute;
+    width: 20%;
+	margin: 2%;
+	overflow: auto;
+}
+
 .main{
 	position: relative;
 	margin: 2%;
+	width: 75%;
+	overflow: auto;
+	float: right;
 }
 
 .actionBar:not(.width_gt_650){
@@ -40,7 +50,7 @@ button{
 }
 
 input {
-	width: 98%;	
+	width: auto;	
 	margin: 0 auto;
 	padding: 3px;
 	border: 1px solid #A6A6A6;
@@ -50,9 +60,10 @@ input {
 }
 
 select{
-	width: 98%;
+	width: auto;
+	float: right;
 	margin: 0 auto;
-	padding: 2px;
+	padding: 3px;
 	border: 1px solid #A6A6A6;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -60,19 +71,13 @@ select{
 }
 
 input:focus {
-	border-color: #0096D6;
-}
-
-select {
-	width: auto;
-	float: right;
-	margin : 0 auto;
+	border: 2px solid #096D6;
 }
 
 label {
 	display: inline-block;
 	width: 5%;
-	color: #A6A6A6;
+	color: #858585;
 }
 
 textarea {
@@ -83,4 +88,8 @@ textarea {
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
+}
+
+#centre {
+	text-align: center;
 }

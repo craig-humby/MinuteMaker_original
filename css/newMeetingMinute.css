@@ -26,7 +26,20 @@
 }
 
 #mtgAccepted, #mtgTentative, #mtgDeclined{
-	width: 94%;
+	width: 90%;
+	float: right;
+}
+
+#pntAssignee {
+	width: 95%;
+}
+
+#pntDate {
+	width: 95%;
+}
+
+#pntActionPoint {
+	width: 95%;
 }
 
 .appIcon{
