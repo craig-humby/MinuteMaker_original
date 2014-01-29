@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<script type="text/javascript" src="javascript/cordova-2.9.0.js"></script>
+		<script type="text/javascript" src="javascript/addcontacts.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/minutemaker.css">
+		<link rel="stylesheet" type="text/css" href="css/newMeetingMinute.css">
+		<title>Minute Maker</title>
+		<div class="actionBar">
+			<a href="index.html"><img class="backIcon" src="ic_action_previous_item.png"><img class="appIcon" src="icon.png"/></a><big>New Meeting Minute</big>
+		</div>
+	</head>
+	<body>
+		<div class="main">
+			<form id="addContact">
+				<input type="text" id="mtgName" placeholder="Meeting name"/>
+				<select id="mtgCat">
+					<option value="" disabled selected >Meeting category</option>
+					<option value="volvo">Volvo</option>
+					<option value="saab">Saab</option>
+					<option value="mercedes">Mercedes</option>
+					<option value="audi">Audi</option>
+				</select>
+				<br/><br/>
+				<input type="date" id="mtgDate" placeholder="Date"/>
+				<input type="time" id="mtgStart" placeholder="Start Time"/>
+				<input type="time" id="mtgEnd" placeholder="End Time"/>
+			</form>	
+			<div class="buttons">
+			<button id="btnSave" type="submit" form="addContact">Save</button>&emsp;
+			<button id="btnClear" type="reset" form="addContact">Clear</button>
+			</div>
+		</div>
+	</body>
+</html>

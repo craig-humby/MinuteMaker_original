@@ -1,0 +1,49 @@
+#mtgName{
+	width: 65%;
+	float: left;
+}
+
+#mtgCat{
+	width: 30%;
+	float: right;
+}
+
+#mtgDate{
+	width: 28%;	
+	float: left;
+	margin-right: 6%;
+}
+
+#mtgStart{
+	width: 28%;
+	float: left;
+	margin-right: 6%;
+}
+
+#mtgEnd{
+	width: 28%;
+	float: right;
+}
+
+
+.buttons{
+	padding-top: 10px;
+	text-align: center;
+}
+
+.appIcon{
+	height:32px;
+	width: 32px;
+	padding-right: 10px;
+	padding-top: 3px;
+	padding-bottom: 8px;
+	vertical-align: middle;
+}
+
+.backIcon{
+	height:24px;
+	width: 24px;
+	padding-top: 2px;
+	padding-bottom: 8px;
+	vertical-align: middle;
+}
