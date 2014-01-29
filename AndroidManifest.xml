@@ -16,9 +16,9 @@
     <compatible-screens />  
     <supports-gl-texture />  
 
-	<application android:theme="@android:style/Theme.Holo.Light.NoActionBar">
+	<application android:theme="@android:style/Theme.Holo.Light.ActionBar">
 
-        <activity android:theme="@android:style/Theme.Holo.Light.NoActionBar">
+        <activity android:theme="@android:style/Theme.Holo.Light.ActionBar">
             <intent-filter>
                 <action />
                 <category />

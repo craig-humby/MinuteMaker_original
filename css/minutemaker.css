@@ -13,14 +13,14 @@ body {
 	position: absolute;
     width: 20%;
 	margin: 2%;
-	overflow-y: scroll;
+	overflow-y: auto;
 }
 
 .main{
 	position: relative;
 	margin: 2%;
 	width: 75%;
-	overflow-y: scroll;
+	overflow-y: auto;	
 	float: right;
 }
 

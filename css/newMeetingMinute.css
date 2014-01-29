@@ -44,3 +44,23 @@
 	padding-bottom: 8px;
 	vertical-align: middle;
 }
+
+.shareIcon{
+	height: 32px;
+	width: 32px;
+	padding-top: 3px;
+	padding-bottom: 8px;
+	vertical-align: middle;
+	float: right;
+}
+
+.saveIcon{
+	height: 32px;
+	width: 32px;
+	padding-right: 24px;
+	padding-left: 24px;
+	padding-top: 3px;
+	padding-bottom: 8px;
+	vertical-align: middle;
+	float: right;
+}
