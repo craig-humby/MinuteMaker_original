@@ -25,10 +25,8 @@
 	float: right;
 }
 
-
-.buttons{
-	padding-top: 10px;
-	text-align: center;
+#mtgAccepted, #mtgTentative, #mtgDeclined{
+	width: 94%;
 }
 
 .appIcon{
