@@ -8,14 +8,8 @@
 	float: right;
 }
 
-#mtgDate{
+#mtgDate, #mtgStart{
 	width: 28%;	
-	float: left;
-	margin-right: 6%;
-}
-
-#mtgStart{
-	width: 28%;
 	float: left;
 	margin-right: 6%;
 }
@@ -30,15 +24,7 @@
 	float: right;
 }
 
-#pntAssignee {
-	width: 95%;
-}
-
-#pntDate {
-	width: 95%;
-}
-
-#pntActionPoint {
+#pntAssignee, #pntDate, #pntActionPoint {
 	width: 95%;
 }
 
