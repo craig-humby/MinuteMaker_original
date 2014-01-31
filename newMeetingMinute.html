@@ -4,21 +4,22 @@
 	<head>
 		<script type="text/javascript" src="javascript/cordova.js"></script>
 		<script type="text/javascript" src="javascript/minutemaker.js"></script>
+		<script type="text/javascript" src="js/Toast.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/minutemaker.css">
 		<link rel="stylesheet" type="text/css" href="css/newMeetingMinute.css">
 		<title>Minute Maker</title>
-		<div class="actionBar">
+		<div id="actionBar">
 			<a href="index.html"><img class="backIcon" src="imgs/ic_action_previous_item.png"><img class="appIcon" src="imgs/icon.png"/></a><big>New Meeting Minute</big>
 			<img class="saveIcon" src="imgs/ic_action_save.png"/><img class="shareIcon" src="imgs/ic_action_share.png"/>
 		</div>
 	</head>
 	<body>
-		<div class="leftPane">
+		<div id="leftPane">
 			<form id="actionPoint">
 				<textarea rows="1" type="text" id="pntAssignee" placeholder="Assignee"/></textarea>
 				<br/><br/>
 				<input type="date" id="pntDate" placeholder="Due Date"/>
-				<br/><br/>				
+				<br/><br/>	
 				<textarea  rows="5" id="pntActionPoint" placeholder="Action Point"></textarea>
 				<br/><br/>
 			</form>
@@ -26,7 +27,7 @@
 				<button id="btnFocus" type="submit" form="addContact">Create Action Point</button>
 			</div>
 		</div>
-		<div class="main">
+		<div id="main">
 			<form id="meetingMinute">
 				<textarea rows="1" type="text" id="mtgName" placeholder="Meeting name"/></textarea>
 				<select id="mtgCat">
@@ -36,23 +37,23 @@
 					<option value="mercedes">Mercedes</option>
 					<option value="audi">Audi</option>
 				</select>
-				<br/><br/>
+				<br/><br/><br/>
 				<input type="date" id="mtgDate" placeholder="Date"/>
 				<input type="time" id="mtgStart" placeholder="Start Time"/>
 				<input type="time" id="mtgEnd" placeholder="End Time"/>				
-				<br/><br/>
+				<br/><br/><br/>
 				<label for="mtgAccepted">Accepted</label>
 					<textarea rows="1" type="text" id="mtgAccepted" placeholder="None"/></textarea>
-				<br/><br/>
+				<br/><br/><br/>
 				<label for="mtgTentative">Tentative</label>
 					<textarea rows="1" type="text" id="mtgTentative" placeholder="None"/></textarea>
-				<br/><br/>
+				<br/><br/><br/>
 				<label for="mtgDeclined">Declined</label>
 					<textarea rows="1" type="text" id="mtgDeclined" placeholder="None"/></textarea>
-				<br/><br/>				
+				<br/><br/></br>		
 				<textarea  rows="5" id="mtgAgenda" placeholder="Meeting Agenda"></textarea>
 				<br/><br/>
-				<textarea  rows="100" id="mtgMinutes" placeholder="Meeting minutes"/></textarea>
+				<textarea  rows="10" id="mtgMinutes" placeholder="Meeting minutes"/></textarea>
 			</form>	
 		</div>
 	</body>
